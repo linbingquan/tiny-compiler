@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "start": "deno run test.ts",
+    "dev": "deno run --watch test.ts",
+    "build": "deno bundle mod.ts bundle.js",
+    "fmt": "deno fmt",
+    "test": "deno run test.ts"
+  },
+  "fmt": {
+    "options": {
+      "lineWidth": 120
+    }
+  },
+  "lint": {}
+}
